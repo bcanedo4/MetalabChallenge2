@@ -1,3 +1,7 @@
+body {
+	margin: 0;
+}
+
 p, a {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -15,6 +19,12 @@ p, a {
 	text-align: left;
 }
 
+.spacing-30 {
+	height: 30px;
+	width: 100%;
+	float: left;
+}
+
 .spacing-80 {
 	height: 80px;
 	width: 100%;
@@ -25,17 +35,28 @@ p, a {
 	height: 100px;
 	width: 100%;
 	float: left;
+	margin: 30px;
 }
 
 .spacing-200 {
-	height: 200px;
-	width: 100%;
+	margin-top: 200px;
 	float: left;
+	width: 100%;
+}
+
+.side-by-side-container, .side-by-side-container-2 {
+	height: 762.44px;
+	width: 33%;
+	float: left;
+}
+
+.side-by-side-container-2 {
+	width: 34%;
 }
 
 .joshua {
 	height: 662.44px;
-	width: 33%;
+	width: 100%;
 	display: inline-block;
 	background-repeat: no-repeat;
 	float: left;
@@ -53,7 +74,7 @@ p, a {
 
 .araik {
 	height: 662.44px;
-	width: 34%;
+	width: 100%;
 	display: inline-block;
 	background-repeat: no-repeat;
 	float: left;
@@ -72,7 +93,7 @@ p, a {
 
 .nerces {
 	height: 662.44px;
-	width: 33%;
+	width: 100%;
 	display: inline-block;
 	background-repeat: no-repeat;
 	float: left;
@@ -179,22 +200,10 @@ a.hover-red:hover, a.hover-red:active {
 	color: red;	
 }
 
-.names-container-1 {
-	height: 30px;
-	width: 33%;
-	float: left;
-}
-
-.names-container-2 {
-	height: 30px;
-	width: 33%;
-	float: left;
-}
-
-.names-container-3 {
-	height: 30px;
-	width: 33%;
-	float: left;
+.names-container {
+	height: 60px;
+	width: 100%;
+	clear: right;
 }
 
 hr {
@@ -204,14 +213,14 @@ hr {
 
 .quote-container {
 	width: 100%;
-	height: 300px;
+	margin: 90px 100px 150px 70px;
+	float: left;
 }
 
 .centering {
-	margin-top: 200px;
-	margin-left: 350px;
-	margin-bottom: 290px;
-	margin-right: 350px;
+	width: 60%;
+	margin: auto;
+    display: block;
 }
 
 .pic-container-1 {
@@ -335,6 +344,10 @@ hr {
 	width: 118px;
 }
 
+.logo-spacing {
+	margin-top: 75px;
+}
+
 .logo-positioning {
 	margin-top: 100px;
 	margin-left: 160px;
@@ -347,8 +360,16 @@ hr {
 
 .red-bar {
 	background-color: #d00d20;
-	height: 3px;
+	height: 2px;
 	width: 20px;
 	clear: right;
 	margin-left: 50px;
+}
+
+.quote-red-bar {
+	background-color: #df8686;
+	height: 3px;
+	width: 20px;
+	clear: right;
+	margin-left: 405px;
 }
