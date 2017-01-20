@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	overflow-x: hidden;
 }
 
 p, a {
@@ -14,9 +15,14 @@ p, a {
 
 #navbar-container {
 	height: 450px;
-	width: 670px;
+	width: 40%;
 	float: left;
 	text-align: left;
+}
+
+.lorem-container {
+	height: 450px;
+	width: ;
 }
 
 .spacing-30 {
@@ -134,9 +140,10 @@ li {
 	margin-top: -30px;
 }
 
-.font-140 {
-	font-size: 140%;
-	font-family: 'Open Sans', sans-serif;
+.font-125 {
+	font-size: 125%;
+	text-align: justify;
+	color: rgba(0, 0, 0, 0.5);	
 }
 
 .font-160 {
@@ -221,6 +228,7 @@ a.hover-red:hover, a.hover-red:active {
 .names-container:hover p {
 	color: black;
 }
+
 hr {
 	clear: left;
 }
@@ -315,7 +323,7 @@ hr {
 	width: 15%;
 	float: left;
 	margin-top: 80px;
-	margin-left: 200px;
+	margin-left: 100px;
 	line-height: 50%;
 	color: white;
 }
@@ -325,7 +333,7 @@ hr {
 	width: 15%;
 	float: left;
 	margin-top: 80px;
-	margin-left: -40px;
+	margin-left: -30px;
 	line-height: 50%;
 	color: white;
 }
@@ -335,7 +343,7 @@ hr {
 	width: 15%;
 	float: left;
 	margin-top: 80px;
-	margin-left: -40px;
+	margin-left: -30px;
 	line-height: 50%;
 	color: white;
 }
