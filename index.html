@@ -3,6 +3,7 @@
 <html>
 
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <title>
 	Metalab Challenge 2
 </title>
@@ -18,133 +19,135 @@
 	<!-- Hover curosr over pictures, turn red -->
 	<!-- Click name, turn red -->
 
-	<!-- Left side -->
-	<div id="wrapper">
-	<div class="spacing-30"></div>
-	<div>
-		<div id="logo-container"> 
-			
+	<!-- Header -->
+	<div id="home" class="spacing-30"></div>
+	<div id="header">
+		<div class="opacity font-125 width-50">
 			<div class="margin-left-20">
-				<div class="opacity font-125">
-		  			<p>+1 818.677.7084</p>
-		  		</div>
-		  		<img src="img/meta-logo.png" class="logo-spacing" alt="META+Lab logo">
-		  		<br>
-				<div class="font-400">
-					<p class="startup"> We Are Startup.</p>
-					<p class="Metalab"><strong>META+Lab.</strong></p>
-		  		</div>
+				<p>+1 818.677.7084</p>
+			</div>
+   		</div>
+   		<div class="font-125 opacity word-spacing width-50">
+			<ul><p>
+				<li><a href="#home" class="hover-red">Home</a></li>
+				<li><a href="#about" class="hover-red">About</a></li>
+				<li><a href="#team" class="hover-red">Team</a></li>
+				<li><a href="#home" class="hover-red">Contact</a></li>
+				</p>
+			</ul>
+		</div>
+   	</div>
+	<div id="content">
+			<div id="logo-container"> 
+				<!-- Original Place for Phone Number -->
+				<div class="margin-left-20">
+			  		<img src="img/meta-logo.png" class="logo-spacing" alt="META+Lab logo">
+			  		<br>
+					<div class="font-400">
+						<p class="startup"> We Are Startup.</p>
+						<p class="Metalab"><strong>META+Lab.</strong></p>
+			  		</div>
+			  	</div>
 		  	</div>
-	  	</div>
 
-	  	<div id="navbar-container"> 
+		  	<div id="right-container"> 
+				
+				<div class="font-125 opacity word-spacing">
+				<!-- Original place for Home,About,Team, etc. -->
+					<div class="font-125">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				<div class="font-200">
+					<p><strong>Learn. Explore. Go Beyond. </strong></p>
+				</div>
+				</div> 
+			</div>
+		
 			
-			<div class="font-125 opacity word-spacing">
-				<ul>
-					<li><a class="hover-red">Home</a></li>
-					<li><a class="hover-red">About</a></li>
-					<li><a class="hover-red">Team</a></li>
-					<li><a class="hover-red">Contact</a></li>
-		  		</ul>
-		  	</div>
-		
-			<div class="spacing-80"></div>
-				<div class="font-125">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<!-- Side by side photos -->
+		<div class="spacing-200">
+			<div class="side-by-side-container">
+				<div class="joshua"></div>
+				<div class="names-container">
+					<div class="names-positioning">
+						<p><strong>Joshua "Where's Josh" Flores</strong></p>
+						<p>Operations &amp; IT</p>
+					</div>
+					<div class="red-bar"></div>
 				</div>
-			<div class="font-200">
-				<p><strong>Learn. Explore. Go Beyond. </strong></p>
 			</div>
-		</div> 
-	</div>
-	
-		
-	<!-- Side by side photos -->
-	<div class="spacing-200">
-		<div class="side-by-side-container">
-			<div class="joshua"></div>
-			<div class="names-container">
-				<div class="names-positioning">
-					<p><strong>Joshua "Where's Josh" Flores</strong></p>
-					<p>Operations &amp; IT</p>
-				</div>
-				<div class="red-bar"></div>
+			<div class="side-by-side-container-2">
+				<div class="araik"></div>
+				<div class="names-container">
+					<div class="names-positioning">
+						<p><strong>Araik  "B-Boy" Yegiazaryan</strong></p>
+						<p>Scrum Master</p>
+					</div>
+					<div class="red-bar"></div>	
+				</div>	
 			</div>
-		</div>
-		<div class="side-by-side-container-2">
-			<div class="araik"></div>
-			<div class="names-container">
-				<div class="names-positioning">
-					<p><strong>Araik  "B-Boy" Yegiazaryan</strong></p>
-					<p>Scrum Master</p>
-				</div>
-				<div class="red-bar"></div>	
-			</div>	
-		</div>
-		<div class="side-by-side-container">
-			<div class="nerces"></div>
-			<div class="names-container">
-				<div class="names-positioning">
-					<p><strong>Nerces "Beardo" Kazandijan</strong></p>
-					<p>Product Owner</p>
-				</div>
-				<div class="red-bar"></div>
-			</div> 
-		</div>
-	</div>
-	<!-- Quotation -->
-	<div class="quote-container">
-		<div class="centering"> 
-			<div>
-				<p class="font-300"><i>"Start with why customers will never love a company until the employees love it first."</i></p>
-			</div>
-			<div class="font-120">
-				<p><strong>Simon Sinek, 2014</strong></p>
+			<div class="side-by-side-container">
+				<div class="nerces"></div>
+				<div class="names-container">
+					<div class="names-positioning">
+						<p><strong>Nerces "Beardo" Kazandijan</strong></p>
+						<p>Product Owner</p>
+					</div>
+					<div class="red-bar"></div>
+				</div> 
 			</div>
 		</div>
-		<div class="quote-red-bar"></div>
-	</div>
+		<!-- Quotation -->
+		<div class="quote-container">
+			<div class="centering"> 
+				<div>
+					<p class="font-300"><i>"Start with why customers will never love a company until the employees love it first."</i></p>
+				</div>
+				<div class="font-120">
+					<p><strong>Simon Sinek, 2014</strong></p>
+				</div>
+			</div>
+			<div class="quote-red-bar"></div>
+		</div>
 
-	<!-- 8 Pictures -->
-	<div class="pic-container-1"></div>
-	<div class="pic-container-2"></div>
-	<div class="pic-container-3"></div>
-	<div class="pic-container-4"></div>
-	<div class="pic-container-5"></div>
-	<div class="pic-container-6"></div>
-	<div class="pic-container-7"></div>
-	<div class="pic-container-8"></div>
+		<!-- 8 Pictures -->
+		<div id="team" class="pic-container-1"></div>
+		<div class="pic-container-2"></div>
+		<div class="pic-container-3"></div>
+		<div class="pic-container-4"></div>
+		<div class="pic-container-5"></div>
+		<div class="pic-container-6"></div>
+		<div class="pic-container-7"></div>
+		<div class="pic-container-8"></div>
 
-	<!-- Footer -->
-	<div class="footer">
-		<div class="logo-positioning">
-			<div> 
-				<img src="img/metalab-8.png" alt="META+Lab logo" class="metalab-sizing">	
+		<!-- Footer -->
+		<div class="footer">
+			<div class="logo-positioning">
+				<div> 
+					<img src="https://avatars1.githubusercontent.com/u/11095982?v=3&s=200" alt="META+Lab logo" class="metalab-sizing">	
+				</div>
+			</div>
+			<div class="font-160">
+				<p>Learn. Explore. Go Beyond.</p>
+			</div>
+			<div id="about" class="long-list-container-1">
+				<p>1) Pursue Growth and Learning </p>
+				<p>2) Seed and Foster Experimentation</p>
+				<p>3) Embrace and Drive Change</p>
+				<p>4) Be a Mentor. Guide and Lead by Example</p>
+			</div>
+			<div class="long-list-container-2">
+				<p>5) Strive Towards Solutions for the Greater Good </p>
+				<p>6) Be Passionate, Determined, and Humble </p>
+				<p>7) Be Flexible, Patient and Fluid Like Water</p>
+				<p>8) Embrace Failure as a Learning Opportunity</p>
+			</div>
+			<div class="long-list-container-3">
+				<p>9) Practice Random Acts of Kindness</p>
+				<p>10) Propel the Team Forward. Champion Progress as a Team</p>
 			</div>
 		</div>
-		<div class="font-160">
-			<p>Learn. Explore. Go Beyond.</p>
-		</div>
-		<div class="long-list-container-1">
-			<p>A Long List Item Here </p>
-			<p>A Long List Item Here </p>
-			<p>A Long List Item Here </p>
-			<p>A Long List Item Here </p>
-		</div>
-		<div class="long-list-container-2">
-			<p>A Long List Item Here </p>
-			<p>A Long List Item Here </p>
-			<p>A Long List Item Here </p>
-			<p>A Long List Item Here </p>
-		</div>
-		<div class="long-list-container-3">
-			<p>A Long List Item Here </p>
-			<p>A Long List Item Here </p>
-			<p>A Long List Item Here </p>
-			<p>A Long List Item Here </p>
-		</div>
 	</div>
-	</div>
-	
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
